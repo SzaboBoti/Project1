@@ -41,13 +41,13 @@ public class Main {
 
         System.out.println(result3);
 
-     //ex b
+        //ex b
 
-       byte fiftyfive = 55;
-       byte nine = 9;
-       byte nine2 =9;
+        byte fiftyfive = 55;
+        byte nine = 9;
+        byte nine2 = 9;
 
-       double result9 = (fiftyfive + nine) % nine2;
+        double result9 = (fiftyfive + nine) % nine2;
 
         System.out.println(result9);
 
@@ -62,7 +62,7 @@ public class Main {
 
         System.out.println(result10);
 
-       //ex d
+        //ex d
 
         // 5 + 15 / 3 * 2 - 8 % 3
 
@@ -77,6 +77,17 @@ public class Main {
 
         System.out.println(result11);
 
+
+        //LAB 11
+
+// TEMA IF / ELSE
+
+        Calculator calc = new Calculator();
+
+        System.out.println("rezultatul adunarii este : " +  calc.adunare(4 , 6) );
+        System.out.println( "rezultatul scaderii este : " + calc.scadere( 6, 4) );
+
     }
+
 
 }
