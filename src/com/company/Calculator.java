@@ -9,13 +9,20 @@ public class Calculator {
       return sum ;
 
    }
-    public int scadere ( int first , int second)    {
-        int resultat = first - second ;
+    public int scadere ( int first , int second) {
+        int resultat = first - second;
 
-        return resultat ;
-
-
-
+        return resultat;
     }
 
+        public int inmultire ( int first , int second ) {
+        int rezultat = first * second ;
+
+        return rezultat;
+        }
+
+        public double impartire ( double first , double second ) {
+        double rezultat = first / second;
+        return rezultat;
+        }
 }

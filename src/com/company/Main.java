@@ -86,7 +86,8 @@ public class Main {
 
         System.out.println("rezultatul adunarii este : " +  calc.adunare(4 , 6) );
         System.out.println( "rezultatul scaderii este : " + calc.scadere( 6, 4) );
-
+        System.out.println( "rezultatul inmultirii este :" + calc.inmultire(6 , 5));
+        System.out.println( "rezultatul impartirii este : " + calc.impartire(5,2));
     }
 
 
