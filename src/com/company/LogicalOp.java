@@ -54,6 +54,21 @@ public class LogicalOp {
             }
 
         }
+      // 3. In clasa LogicalOp, creati o metoda de tip int, care sa se numeasca checkBiggerNumber(), si sa primeasca doua
+    // int-uri ca si parametrii. Folosind if - else, verificati in interiorul metode care numar este mai mare, dintre cele
+    // doua valori care va vin ca si parametrii, si returnati numarul mai mare
+
+        public int checkBiggernumber2(int first , int second) {
+
+        if ( first > second ) {
+
+            return first;
+        } else {
+
+          return second;
+        }
+    }
+
 
 
     }

@@ -88,6 +88,15 @@ public class Main {
         System.out.println( "rezultatul scaderii este : " + calc.scadere( 6, 4) );
         System.out.println( "rezultatul inmultirii este :" + calc.inmultire(6 , 5));
         System.out.println( "rezultatul impartirii este : " + calc.impartire(5,2));
+
+        LogicalOp logicalOp = new LogicalOp();
+
+
+        System.out.println(logicalOp.checkBiggernumber2(4,6));
+
+
+
+
     }
 
 
